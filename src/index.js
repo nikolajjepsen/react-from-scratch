@@ -1,11 +1,8 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
 import './index.scss';
-
-const App = () => {
-    return <div>Hello World!</div>;
-};
 
 ReactDOM.render(
     <StrictMode>
